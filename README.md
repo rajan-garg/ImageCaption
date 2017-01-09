@@ -1,1 +1,1 @@
-Image caption
+Image Caption
