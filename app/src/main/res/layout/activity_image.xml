@@ -3,11 +3,17 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/imageId"
         android:layout_gravity="center"
         android:scaleType="center"
-        android:src="@drawable/default_image"/>
+        android:src="@drawable/default_image"
+        android:layout_height="300dp"
+        android:layout_width="300dp" />
+
+    <Button
+        android:text="Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_btn" />
 
 </LinearLayout>
