@@ -20,22 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".AnalyzeActivity"
-            android:label="@string/title_activity_analyze"
-            android:parentActivityName=".MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.microsoft.projectoxford.visionsample.MainActivity" />
-        </activity>
-        <activity
-            android:name=".AnalyzeInDomainActivity"
-            android:label="@string/title_activity_analyze_domain"
-            android:parentActivityName=".MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.microsoft.projectoxford.visionsample.AnalyzeInDomainActivity" />
-        </activity>
+
+
         <activity
             android:name=".DescribeActivity"
             android:label="@string/title_activity_describe"
@@ -44,17 +30,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.microsoft.projectoxford.visionsample.MainActivity" />
         </activity>
+
         <activity
-            android:name=".RecognizeActivity"
-            android:label="@string/title_activity_recognize"
-            android:parentActivityName=".MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.microsoft.projectoxford.visionsample.MainActivity" />
-        </activity>
-        <activity
-            android:name=".ThumbnailActivity"
-            android:label="@string/title_activity_thumbnail"
+            android:name=".SearchActivity"
+            android:label="Caption for Image"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

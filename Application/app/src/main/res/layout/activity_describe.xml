@@ -11,11 +11,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:weightSum="1">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:text="Select an image to analyze"/>
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
@@ -44,13 +40,13 @@
             android:layout_gravity="right"
             android:layout_weight="1.03">
 
-            <EditText
+            <Button
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:inputType="textMultiLine"
-                android:ems="10"
-                android:id="@+id/editTextResult"
-                android:layout_weight="1" />
+                android:layout_height="wrap_content"
+                android:text="Caption"
+                android:id="@+id/buttonSearchCaption"
+                android:onClick="activitySearch"/>
+
         </LinearLayout>
     </LinearLayout>
 
