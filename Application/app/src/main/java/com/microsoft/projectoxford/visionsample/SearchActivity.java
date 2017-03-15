@@ -54,27 +54,34 @@ public class SearchActivity extends ActionBarActivity {
        }
 
 
-    class doCaption extends AsyncTask<String, String, String> {
+    class doCaption extends AsyncTask<String, String, Elements> {
 
         //private Exception e=null;
 
-        protected String doInBackground(String... args) {
+        protected Elements doInBackground(String... args) {
             try {
                 // Connect to the web site
                 Document document = Jsoup.connect(url).get();
                 // Get the html document title
                // return document.title();
 
-                return document.select("a[title=view quote]").text();
-                //Log.d("quote", URLStr);
+                Elements quotes = document.select("a[title=view quote]");
+                return quotes;
+
             } catch (Exception e) {
                 e.printStackTrace();
             }
             return null;
         }
 
-        protected void onPostExecute(String data) {
-            captionText.setText(data);
+        protected void onPostExecute(Elements data) {
+            for(Element p : data) {
+                Log.d("quote",p.text());
+                captionText.append(p.text());
+                captionText.append("\n");
+
+            }
+
         }
     }
 
