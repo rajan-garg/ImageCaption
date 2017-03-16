@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="vision-1.0.354">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/55e8bed031800509cf764d8a1850cc3ef7bcff1e/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/55e8bed031800509cf764d8a1850cc3ef7bcff1e/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/55e8bed031800509cf764d8a1850cc3ef7bcff1e/output/jars/libs/commons-io-2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
