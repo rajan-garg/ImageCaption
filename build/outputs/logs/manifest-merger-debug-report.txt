@@ -30,7 +30,7 @@ ADDED from /home/rajan/Desktop/ImageCaption/src/main/AndroidManifest.xml:9:5-46:
 MERGED from [com.android.support:appcompat-v7:21.0.3] /home/rajan/.android/build-cache/762d8d0465e2f77c3b3679064ee6b515042707b7/output/AndroidManifest.xml:16:5-19
 MERGED from [com.android.support:support-v4:21.0.3] /home/rajan/.android/build-cache/a032653f061c9aa832fbb1e39221b54cca8dbf80/output/AndroidManifest.xml:16:5-19
 	android:label
-		ADDED from /home/rajan/Desktop/ImageCaption/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /home/rajan/Desktop/ImageCaption/src/main/AndroidManifest.xml:12:9-35
 	android:allowBackup
 		ADDED from /home/rajan/Desktop/ImageCaption/src/main/AndroidManifest.xml:10:9-35
 	android:icon
@@ -40,7 +40,7 @@ MERGED from [com.android.support:support-v4:21.0.3] /home/rajan/.android/build-c
 activity#com.microsoft.projectoxford.visionsample.MainActivity
 ADDED from /home/rajan/Desktop/ImageCaption/src/main/AndroidManifest.xml:14:9-22:20
 	android:label
-		ADDED from /home/rajan/Desktop/ImageCaption/src/main/AndroidManifest.xml:16:13-45
+		ADDED from /home/rajan/Desktop/ImageCaption/src/main/AndroidManifest.xml:16:13-39
 	android:name
 		ADDED from /home/rajan/Desktop/ImageCaption/src/main/AndroidManifest.xml:15:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER

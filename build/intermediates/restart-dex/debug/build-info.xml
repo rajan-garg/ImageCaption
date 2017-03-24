@@ -6,23 +6,29 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489667574882"
+    timestamp="1490371981749"
     token="5188711751159840246"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="528" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="43" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
+    <artifact
+        location="/home/rajan/Desktop/ImageCaption/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/rajan/Desktop/ImageCaption/build/outputs/apk/ImageCaption-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="/home/rajan/Desktop/ImageCaption/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
@@ -48,22 +54,22 @@
         location="/home/rajan/Desktop/ImageCaption/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="/home/rajan/Desktop/ImageCaption/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
         location="/home/rajan/Desktop/ImageCaption/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
         location="/home/rajan/Desktop/ImageCaption/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
-    <artifact
-        location="/home/rajan/Desktop/ImageCaption/build/outputs/apk/ImageCaption-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1489667574882"
+        timestamp="1490371981749"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/rajan/Desktop/ImageCaption/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/rajan/Desktop/ImageCaption/build/outputs/apk/ImageCaption-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/home/rajan/Desktop/ImageCaption/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
@@ -89,17 +95,11 @@
             location="/home/rajan/Desktop/ImageCaption/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/rajan/Desktop/ImageCaption/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/rajan/Desktop/ImageCaption/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/rajan/Desktop/ImageCaption/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/rajan/Desktop/ImageCaption/build/outputs/apk/ImageCaption-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

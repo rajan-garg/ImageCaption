@@ -16,12 +16,12 @@
         "source": "/home/rajan/.android/build-cache/762d8d0465e2f77c3b3679064ee6b515042707b7/output/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/home/rajan/Desktop/ImageCaption/build/intermediates/res/merged/debug/layout/activity_search.xml",
-        "source": "/home/rajan/Desktop/ImageCaption/src/main/res/layout/activity_search.xml"
-    },
-    {
         "merged": "/home/rajan/Desktop/ImageCaption/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/home/rajan/.android/build-cache/762d8d0465e2f77c3b3679064ee6b515042707b7/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/rajan/Desktop/ImageCaption/build/intermediates/res/merged/debug/layout/activity_search.xml",
+        "source": "/home/rajan/Desktop/ImageCaption/src/main/res/layout/activity_search.xml"
     },
     {
         "merged": "/home/rajan/Desktop/ImageCaption/build/intermediates/res/merged/debug/layout/activity_describe.xml",
@@ -62,6 +62,10 @@
     {
         "merged": "/home/rajan/Desktop/ImageCaption/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/rajan/.android/build-cache/762d8d0465e2f77c3b3679064ee6b515042707b7/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/rajan/Desktop/ImageCaption/build/intermediates/res/merged/debug/layout/list_view.xml",
+        "source": "/home/rajan/Desktop/ImageCaption/src/main/res/layout/list_view.xml"
     },
     {
         "merged": "/home/rajan/Desktop/ImageCaption/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",

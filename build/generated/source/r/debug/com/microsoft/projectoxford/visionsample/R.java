@@ -1318,7 +1318,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0c002e;
         public static final int action_mode_bar_stub=0x7f0c002d;
         public static final int action_mode_close_button=0x7f0c0020;
-        public static final int action_settings=0x7f0c0048;
+        public static final int action_settings=0x7f0c0049;
         public static final int activity_chooser_view_content=0x7f0c0021;
         public static final int always=0x7f0c0016;
         public static final int beginning=0x7f0c0013;
@@ -1327,7 +1327,6 @@ containing a value of this type.
         public static final int button_describe=0x7f0c0043;
         public static final int button_select_a_photo_in_album=0x7f0c0047;
         public static final int button_take_a_photo=0x7f0c0046;
-        public static final int captionSearchText=0x7f0c0044;
         public static final int checkbox=0x7f0c0029;
         public static final int collapseActionView=0x7f0c0017;
         public static final int decor_content_parent=0x7f0c002f;
@@ -1349,6 +1348,7 @@ containing a value of this type.
         public static final int listMode=0x7f0c0009;
         public static final int list_item=0x7f0c0025;
         public static final int middle=0x7f0c0015;
+        public static final int mobile_list=0x7f0c0044;
         public static final int never=0x7f0c0019;
         public static final int none=0x7f0c000e;
         public static final int normal=0x7f0c000a;
@@ -1373,6 +1373,7 @@ containing a value of this type.
         public static final int split_action_bar=0x7f0c0007;
         public static final int submit_area=0x7f0c003c;
         public static final int tabMode=0x7f0c000b;
+        public static final int textlabel=0x7f0c0048;
         public static final int title=0x7f0c0027;
         public static final int up=0x7f0c0008;
         public static final int useLogo=0x7f0c0012;
@@ -1410,7 +1411,8 @@ containing a value of this type.
         public static final int activity_main=0x7f040018;
         public static final int activity_search=0x7f040019;
         public static final int activity_select_image=0x7f04001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f04001b;
+        public static final int list_view=0x7f04001b;
+        public static final int support_simple_spinner_dropdown_item=0x7f04001c;
     }
     public static final class menu {
         public static final int menu_analyze=0x7f0d0000;

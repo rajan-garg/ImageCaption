@@ -350,7 +350,7 @@ int id action_menu_presenter 0x7f0c0003
 int id action_mode_bar 0x7f0c002e
 int id action_mode_bar_stub 0x7f0c002d
 int id action_mode_close_button 0x7f0c0020
-int id action_settings 0x7f0c0048
+int id action_settings 0x7f0c0049
 int id activity_chooser_view_content 0x7f0c0021
 int id always 0x7f0c0016
 int id beginning 0x7f0c0013
@@ -359,7 +359,6 @@ int id buttonSelectImage 0x7f0c003f
 int id button_describe 0x7f0c0043
 int id button_select_a_photo_in_album 0x7f0c0047
 int id button_take_a_photo 0x7f0c0046
-int id captionSearchText 0x7f0c0044
 int id checkbox 0x7f0c0029
 int id collapseActionView 0x7f0c0017
 int id decor_content_parent 0x7f0c002f
@@ -381,6 +380,7 @@ int id info 0x7f0c0045
 int id listMode 0x7f0c0009
 int id list_item 0x7f0c0025
 int id middle 0x7f0c0015
+int id mobile_list 0x7f0c0044
 int id never 0x7f0c0019
 int id none 0x7f0c000e
 int id normal 0x7f0c000a
@@ -405,6 +405,7 @@ int id showTitle 0x7f0c0011
 int id split_action_bar 0x7f0c0007
 int id submit_area 0x7f0c003c
 int id tabMode 0x7f0c000b
+int id textlabel 0x7f0c0048
 int id title 0x7f0c0027
 int id up 0x7f0c0008
 int id useLogo 0x7f0c0012
@@ -438,7 +439,8 @@ int layout activity_describe 0x7f040017
 int layout activity_main 0x7f040018
 int layout activity_search 0x7f040019
 int layout activity_select_image 0x7f04001a
-int layout support_simple_spinner_dropdown_item 0x7f04001b
+int layout list_view 0x7f04001b
+int layout support_simple_spinner_dropdown_item 0x7f04001c
 int menu menu_analyze 0x7f0d0000
 int menu menu_describe 0x7f0d0001
 int menu menu_main 0x7f0d0002

@@ -3,7 +3,8 @@ package com.microsoft.projectoxford.visionsample;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import java.io.IOException;
-
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,6 +20,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import java.io.IOException;
 import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 import static java.lang.System.out;
 
@@ -32,7 +35,12 @@ public class SearchActivity extends ActionBarActivity {
 
     private String title;
 
-    private EditText captionText;
+    private ListView listview;
+
+    private ArrayAdapter<String> adapter;
+
+    private final ArrayList<String> mobileArray = new ArrayList<String>();
+   // private EditText captionText;
      @Override
      protected void onCreate(Bundle savedInstanceState) {
          super.onCreate(savedInstanceState);
@@ -42,13 +50,19 @@ public class SearchActivity extends ActionBarActivity {
          array = b.getStringArray("taggs");
          url = "https://www.brainyquote.com/search_results.html?q=" + array[1];
         // Log.d("tag0",array[4]);
-        captionText = (EditText) findViewById(R.id.captionSearchText);
+
+     //   captionText = (EditText) findViewById(R.id.captionSearchText);
+
+         adapter = new ArrayAdapter<String>(this, R.layout.list_view,R.id.textlabel, mobileArray);
+
+         listview = (ListView) findViewById(R.id.mobile_list);
+         listview.setAdapter(adapter);
 
          try {
              new doCaption().execute(url);
          } catch (Exception e)
          {
-             captionText.setText("Error encountered. Exception is: " + e.toString());
+       //      captionText.setText("Error encountered. Exception is: " + e.toString());
          }
 
        }
@@ -75,13 +89,17 @@ public class SearchActivity extends ActionBarActivity {
         }
 
         protected void onPostExecute(Elements data) {
+            int i=0;
+            mobileArray.clear();
             for(Element p : data) {
                 Log.d("quote",p.text());
-                captionText.append(p.text());
-                captionText.append("\n");
+               mobileArray.add(p.text());
+               // captionText.append(p.text());
+                //captionText.append("\n");
 
             }
-
+            adapter.notifyDataSetChanged();
+            
         }
     }
 
